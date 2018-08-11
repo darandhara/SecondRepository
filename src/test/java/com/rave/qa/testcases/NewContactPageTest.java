@@ -39,19 +39,19 @@ public class NewContactPageTest extends TestBase{
 		newContactsPage=homePage.clickOnNewContactsDD();
 	}
 	
-	@DataProvider
-	public Object[][] testDataProvider() throws FileNotFoundException, InvalidFormatException{
-		Object data[][] = TestUtil.getTestData("Sheet1");
-		return data;
-	}
-	
-	
-	@Test(dataProvider="testDataProvider")
-	public void createNewContactTest(String title, String firstName, String middleName, String lastName, String fileUploadPath ) {
-		newContactsPage.creatNewContacts(title, firstName, middleName, lastName,fileUploadPath);
-		
-	}
-	
+//	@DataProvider
+//	public Object[][] testDataProvider() throws FileNotFoundException, InvalidFormatException{
+//		Object data[][] = TestUtil.getTestData("Sheet1");
+//		return data;
+//	}
+//	
+//	
+//	@Test(dataProvider="testDataProvider")
+//	public void createNewContactTest(String title, String firstName, String middleName, String lastName, String fileUploadPath ) {
+//		newContactsPage.creatNewContacts(title, firstName, middleName, lastName,fileUploadPath);
+//		
+//	}
+//	
 	
 //	@Test
 //	public void createNewContactsTest() {
