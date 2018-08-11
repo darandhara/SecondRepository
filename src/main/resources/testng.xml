@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="RAVE Test Automation Suite">
-  <listeners>
+<!--   <listeners>
   	<listener class-name="Analyzer.AnnotationTransformer"></listener>
-  </listeners>
+  </listeners> -->
   <test name="RAVE Test Cases">
     <classes>
-      <class name="com.rave.qa.testcases.LoginPageTest"></class>
+      <!-- <class name="com.rave.qa.testcases.LoginPageTest"></class> -->
+      <class name="com.rave.qa.testcases.NewContactPageTest"></class>
     </classes>
   </test>
 </suite> 
